@@ -5,7 +5,9 @@
 Explore US Bikeshare Data
 
 ###Description
-Describe what your project is about and what it does
+This project contains python code, written for users to explore bikeshare data in the US in an interactive way. 
+Users will be able to filter the data based on city, month and day of the week. 
+Basic statistics will be computed and shown accordingly.
 
 ###Files used
 Include the files used
