@@ -204,6 +204,7 @@ def user_stats(df):
     else:
         print('No birth year data')
 
+    # Display processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -230,7 +231,7 @@ def main():
                     break
         elif raw_data.lower() != 'yes':
                 break
-                
+
         # Ask user if they want to restart
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
