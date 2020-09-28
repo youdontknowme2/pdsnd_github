@@ -10,7 +10,9 @@ Users will be able to filter the data based on city, month and day of the week.
 Basic statistics will be computed and shown accordingly.
 
 ###Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ###Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
