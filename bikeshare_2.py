@@ -230,7 +230,8 @@ def main():
                     break
         elif raw_data.lower() != 'yes':
                 break
-
+                
+        # Ask user if they want to restart
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
