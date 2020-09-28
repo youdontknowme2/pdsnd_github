@@ -16,4 +16,4 @@ new_york_city.csv
 washington.csv
 
 ###Credits
-Special thanks to https://github.com/udacity/pdsnd_github and Udacity for this wonderful course!
+Special thanks to https://github.com/udacity/pdsnd_github, Udacity mentors and Udacity for this wonderful course!
