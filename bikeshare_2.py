@@ -204,6 +204,7 @@ def user_stats(df):
     else:
         print('No birth year data')
 
+    # Display processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -218,6 +219,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        # Ask users if they want to see raw data until users indicate no
         raw_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
         if raw_data.lower() == 'yes':
             i = 0
@@ -230,6 +232,7 @@ def main():
         elif raw_data.lower() != 'yes':
                 break
 
+        # Ask user if they want to restart
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
